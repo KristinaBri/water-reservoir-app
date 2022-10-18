@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { WaterComponent } from './components/water/water.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    WaterComponent
   ],
   imports: [
     BrowserModule
